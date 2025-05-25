@@ -88,8 +88,7 @@ const SearchHistory = ({ userId, onViewCity }: SearchHistoryProps) => {
       </div>
     )
   }
-
-  return (
+return (
     <div className="card">
       <div className="card-header">
         <h2 className="card-title">Your Search History</h2>
@@ -106,7 +105,8 @@ const SearchHistory = ({ userId, onViewCity }: SearchHistoryProps) => {
               </tr>
             </thead>
             <tbody>
-              {history.map((item, index) => (
+              
+              {history.slice().reverse().map((item, index) => (
                 <tr key={index}>
                   <td>{item.city}</td>
                   <td>{item.country}</td>

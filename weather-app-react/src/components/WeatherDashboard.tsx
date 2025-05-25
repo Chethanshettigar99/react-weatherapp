@@ -58,7 +58,7 @@ const WeatherDashboard = ({ user, initialTab = "weather" }: WeatherDashboardProp
                 </Link>
               </>
             ) : (
-              <button onClick={handleLogout} className="inline-btn" style={{ backgroundColor: "#e53e3e" }}>
+              <button onClick={handleLogout} className="inline-btn" >
                 Logout
               </button>
             )}

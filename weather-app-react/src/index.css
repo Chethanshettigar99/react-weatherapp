@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #1e90ff;
-  --primary-dark: #0078d7;
+  --primary-color: #ffa51e;
+  --primary-dark: #e75e0f;
   --secondary-color: #f0f8ff;
   --text-color: #333333;
   --text-light: #666666;
@@ -41,11 +41,7 @@ body {
 }
 
 /* Weather Dashboard */
-/*.weather-dashboard {
-  min-height: 100vh;
-  background: linear-gradient(to bottom, #87ceeb, #1e90ff);
-  padding: 20px 0;
-}*/
+
 .weather-dashboard {
   min-height: 100vh;
   background: url('/src/img/ind.jpg') no-repeat center center;
@@ -573,7 +569,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #87ceeb, #1e90ff);
+  background: url('/src/img/ind.jpg') no-repeat center center;
   padding: 20px;
 }
 
@@ -700,6 +696,7 @@ body {
   padding: 8px 16px;
   background-color: var(--primary-color);
   color: white;
+  border: none;
   text-decoration: none;
   border-radius: var(--border-radius);
   font-weight: 500;
