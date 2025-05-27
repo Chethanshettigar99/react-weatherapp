@@ -1,6 +1,6 @@
 # 🌦️ React Weather Forecast App
 
-Live Demo: [weather-app-smvitm](https://weather-app-smvitm.vercel.app/)
+Live Demo: [weather-app-smvitm](https://react-weatherapp-eta.vercel.app/)
 
 A modern, responsive React + TypeScript weather application that delivers real-time weather data and a 6-day forecast for any city using the OpenWeatherMap API. Enhanced with Firebase for user authentication, search history, and favorite cities. Dynamic backgrounds match current weather conditions for a visually immersive experience.
 
